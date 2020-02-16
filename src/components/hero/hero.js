@@ -66,6 +66,9 @@ export default function Hero() {
         width={window.innerWidth}
         height={window.innerHeight}
       />
+      <div className="hero-text-container">
+        <h1>Hello There,</h1>
+      </div>
     </div>
   );
 }
