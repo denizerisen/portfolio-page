@@ -69,6 +69,23 @@ export default function Hero() {
       <div className="hero-text-container">
         <h1>Hello There,</h1>
       </div>
+      <div className="scroll-pointer">
+        <svg
+          width="8"
+          height="41"
+          viewBox="0 0 8 41"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M3.64645 40.6648C3.84171 40.8601 4.15829 40.8601 4.35355 40.6648L7.53553 37.4829C7.7308 37.2876 7.7308 36.971 7.53553 36.7758C7.34027 36.5805 7.02369 36.5805 6.82843 36.7758L4 39.6042L1.17157 36.7758C0.976311 36.5805 0.659728 36.5805 0.464466 36.7758C0.269204 36.971 0.269204 37.2876 0.464466 37.4829L3.64645 40.6648ZM3.5 0L3.5 40.3113H4.5L4.5 0L3.5 0Z"
+            fill="#0F2E5C"
+          />
+        </svg>
+        <p>
+          scroll <br /> down
+        </p>
+      </div>
     </div>
   );
 }

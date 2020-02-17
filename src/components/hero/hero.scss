@@ -9,7 +9,7 @@ canvas {
 }
 
 .hero-text-container {
-  border: 30px solid transparent;
+  border: px(30) solid transparent;
   border-image: url(../../assets/border.svg) 30 round;
   position: relative;
   top: 50%;
@@ -22,7 +22,23 @@ canvas {
   color: $color-main;
 
   h1 {
-    font-size: 56px;
+    font-size: px(56);
     font-weight: $font-bold;
+  }
+}
+
+.scroll-pointer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-bottom: px(40);
+
+  display: flex;
+  align-items: center;
+
+  p {
+    margin: 0;
+    margin-left: px(10);
   }
 }
