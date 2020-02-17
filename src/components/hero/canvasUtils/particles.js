@@ -57,6 +57,7 @@ export function Macaroni(c, x, y, dx, dy) {
     c.rotate(-this.rotate);
     c.arc(this.x, this.y, this.r, Math.PI, false);
     c.lineWidth = this.lineWidth;
+    c.lineCap = "round";
     c.strokeStyle = this.color;
     c.stroke();
 
