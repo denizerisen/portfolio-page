@@ -41,18 +41,34 @@
   }
 
   .description-col {
-    border: 2px solid $color-sub;
     flex: 55%;
   }
 
   .image-col {
-    border: 2px solid $color-sky-blue;
     flex: 45%;
   }
 }
 
 .description-col {
-  padding: px(10);
+  padding: px(25) px(10);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h3,
+  p {
+    margin: 0;
+  }
+
+  h3,
+  .link-wrapper {
+    flex-basis: auto;
+  }
+
+  p {
+    flex-basis: 50%;
+    margin-top: px(10);
+  }
 
   .link-wrapper {
     display: flex;
