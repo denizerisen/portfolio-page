@@ -3,6 +3,19 @@ import { Circle, Square, Macaroni } from "./canvasUtils/particles";
 
 export default function Hero() {
   const canvasRef = useRef();
+  const heroRef = useRef();
+  const [width, setWidth] = useState(window.innerWidth);
+  const [height, setHeight] = useState(window.innerHeight);
+
+  const updateWidthAndHeight = () => {
+    setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateWidthAndHeight);
+    return () => window.removeEventListener("resize", updateWidthAndHeight);
+  });
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -60,12 +73,8 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="hero-wrapper">
-      <canvas
-        ref={canvasRef}
-        width={window.innerWidth}
-        height={window.innerHeight}
-      />
+    <div className="hero-wrapper" ref={heroRef}>
+      <canvas ref={canvasRef} width={width} height={height} />
       <div className="hero-text-container">
         <h1>Hello There,</h1>
       </div>
