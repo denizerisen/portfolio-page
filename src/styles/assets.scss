@@ -3,6 +3,22 @@
   @return (round(($value / 16) * 100) / 100) * 1em;
 }
 
+//media variables and mixins
+$tablet-width: 768px;
+$mobile-width: 576px;
+
+@mixin tablet {
+  @media screen and (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
 //color variables
 $color-sky-blue: #7bdff2;
 $color-tea-green: #d4f2d2;

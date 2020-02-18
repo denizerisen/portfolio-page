@@ -2,6 +2,7 @@ import React from "react";
 export default function Showcase() {
   return (
     <section className="showcase">
+      <div className="image-col"></div>
       <div className="description-col">
         <h3>Title of description</h3>
         <p>
@@ -18,7 +19,6 @@ export default function Showcase() {
           </a>
         </div>
       </div>
-      <div className="image-col"></div>
     </section>
   );
 }

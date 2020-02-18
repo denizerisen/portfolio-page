@@ -17,3 +17,9 @@ a {
     decoration: none;
   }
 }
+
+@include tablet {
+  body {
+    font-size: px(12);
+  }
+}

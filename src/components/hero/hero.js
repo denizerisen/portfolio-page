@@ -70,7 +70,7 @@ export default function Hero() {
     return () => {
       cancelAnimationFrame(requestId);
     };
-  }, []);
+  }, [width, height]);
 
   return (
     <div className="hero-wrapper" ref={heroRef}>
