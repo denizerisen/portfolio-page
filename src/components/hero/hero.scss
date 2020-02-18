@@ -40,6 +40,11 @@ canvas {
   display: flex;
   align-items: center;
 
+  .icon {
+    width: px(10);
+    height: px(40);
+  }
+
   p {
     margin: 0;
     margin-left: px(10);
