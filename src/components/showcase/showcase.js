@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "../link/link";
+
 export default function Showcase() {
   return (
     <section className="showcase">
@@ -11,12 +13,9 @@ export default function Showcase() {
           reprehenderit. Rerum dolorem saepe deserunt, minima amet{" "}
         </p>
         <div className="link-wrapper">
-          <a href="#/link" title="link to website" className="link web">
-            visit the website
-          </a>
-          <a href="#/git" title="link to git repository" className="link git">
-            go to git repos
-          </a>
+          <Link type="github" />
+          <Link type="codepen" />
+          <Link type="website" />
         </div>
       </div>
     </section>

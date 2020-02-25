@@ -48,6 +48,10 @@
   flex-direction: column;
   justify-content: center;
 
+  @include tablet {
+    text-align: center;
+  }
+
   h3,
   p {
     margin: 0;
@@ -66,26 +70,14 @@
   .link-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+
+    @include tablet {
+      justify-content: center;
+    }
   }
 
   .link {
-    flex: 25%;
     margin: px(5);
-    max-height: px(50);
-    text-align: center;
-    line-height: px(16);
-    font-size: px(16);
-    color: #fff;
-    padding: px(10) px(20);
-    border-radius: 20px;
-
-    &.web {
-      background: $color-link;
-    }
-    &.git {
-      background: $color-git-link;
-    }
   }
 }
 

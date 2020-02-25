@@ -1,0 +1,56 @@
+.link {
+  height: px(50);
+  width: px(50);
+  text-align: center;
+  color: #fff;
+  padding: px(8);
+  border-radius: 50%;
+  border: px(3) solid;
+  transition: transform 0.8s ease-in-out;
+
+  &:hover {
+    transform: rotate(360deg);
+  }
+
+  .icon {
+    width: 100%;
+    height: 100%;
+  }
+
+  &.website {
+    border-color: $color-website;
+    .icon {
+      fill: $color-website;
+    }
+  }
+  &.github {
+    border-color: $color-github;
+    .icon {
+      fill: $color-github;
+    }
+  }
+  &.twitter {
+    border-color: $color-twitter;
+    .icon {
+      fill: $color-twitter;
+    }
+  }
+  &.codepen {
+    border-color: $color-codepen;
+    .icon {
+      fill: $color-codepen;
+    }
+  }
+  &.linkedin {
+    border-color: $color-linkedin;
+    .icon {
+      fill: $color-linkedin;
+    }
+  }
+  &.mail {
+    border-color: $color-main;
+    .icon {
+      fill: $color-main;
+    }
+  }
+}

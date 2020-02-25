@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Circle, Square, Macaroni } from "./canvasUtils/particles";
 import sprite from "../../assets/sprite.svg";
+import Link from "../link/link";
 
 export default function Hero() {
   const canvasRef = useRef();
@@ -78,6 +79,12 @@ export default function Hero() {
       <canvas ref={canvasRef} width={width} height={height} />
       <div className="hero-text-container">
         <h1>Hello There,</h1>
+      </div>
+      <div className="social-links">
+        <Link type="twitter" />
+        <Link type="linkedin" />
+        <Link type="github" />
+        <Link type="twitter" />
       </div>
       <div className="scroll-pointer">
         <svg className="icon">
