@@ -79,12 +79,21 @@ export default function Hero() {
       <canvas ref={canvasRef} width={width} height={height} />
       <div className="hero-text-container">
         <h1>Hello There,</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+          sapiente asperiores ut nihil cum, modi quam debitis autem eveniet
+          libero. Eaque dolore nostrum natus nobis quos laudantium quo, modi
+          possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Alias sapiente asperiores ut nihil cum, modi quam debitis autem
+          eveniet libero. Eaque dolore nostrum natus nobis quos laudantium quo,
+          modi possimus.
+        </p>
       </div>
       <div className="social-links">
         <Link type="twitter" />
         <Link type="linkedin" />
         <Link type="github" />
-        <Link type="twitter" />
+        <Link type="mail" />
       </div>
       <div className="scroll-pointer">
         <svg className="icon">

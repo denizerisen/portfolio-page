@@ -1,38 +1,52 @@
 .hero-wrapper {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
+  padding: px(40) 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 canvas {
   position: absolute;
   z-index: -1;
+  top: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .hero-text-container {
   border: px(30) solid transparent;
   border-image: url(../../assets/border.svg) 30 round;
-  position: relative;
-  top: 50%;
-  transform: translate(0, -50%);
+  -webkit-border: px(30) solid transparent;
+  -webkit-border-image: url(../../assets/border.svg) 30 round;
+
   width: 85%;
-  margin: 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
   color: $color-main;
   text-align: center;
 
   h1 {
-    font-size: px(56);
+    font-size: px(50);
     font-weight: $font-bold;
+  }
+
+  p {
+    font-size: px(20);
   }
 }
 
 .social-links {
-  height: px(100);
   display: flex;
+  justify-content: center;
+  margin: px(5);
+  width: 100%;
+
+  .link {
+    margin: px(5);
+  }
 
   .icon {
     width: 100%;
@@ -41,15 +55,11 @@ canvas {
 }
 
 .scroll-pointer {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  margin-bottom: px(40);
-
+  width: min-content;
+  margin: 0 auto;
   display: flex;
+  align-self: flex-end;
   align-items: center;
-
   .icon {
     width: px(10);
     height: px(40);

@@ -8,6 +8,11 @@ body {
   font-family: $font-main;
 }
 
+h1,
+p {
+  margin: px(5);
+}
+
 a {
   text-decoration: none;
   decoration: none;

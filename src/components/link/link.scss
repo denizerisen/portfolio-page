@@ -7,9 +7,13 @@
   border-radius: 50%;
   border: px(3) solid;
   transition: transform 0.8s ease-in-out;
+  -webkit-transition: transform 0.8s ease-in-out;
+  -moz-transition: transform 0.8s ease-in-out;
 
   &:hover {
     transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
   }
 
   .icon {
