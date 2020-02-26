@@ -9,6 +9,8 @@ export default function Hero() {
   const [width, setWidth] = useState(window.innerWidth);
   const [height, setHeight] = useState(window.innerHeight);
 
+  const particleCount = width > 760 ? 50 : 25;
+
   const updateWidthAndHeight = () => {
     setWidth(window.innerWidth);
     setHeight(window.innerHeight);
@@ -25,7 +27,7 @@ export default function Hero() {
     let requestId;
 
     let circleArray = [];
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < particleCount; i++) {
       const circle_x = Math.random() * window.innerWidth;
       const circle_y = Math.random() * window.innerHeight;
       const circle_dx = Math.random() - 0.5;
@@ -36,7 +38,7 @@ export default function Hero() {
     }
 
     let macaroniArray = [];
-    for (let i = 0; i < 50; i++) {
+    for (let k = 0; k < particleCount; k++) {
       const macaroni_x = Math.random() * window.innerWidth;
       const macaroni_y = Math.random() * window.innerHeight;
       const macaroni_dx = Math.random() - 0.5;
@@ -47,7 +49,7 @@ export default function Hero() {
     }
 
     let squareArray = [];
-    for (let j = 0; j < 50; j++) {
+    for (let j = 0; j < particleCount; j++) {
       const square_x = Math.random() * window.innerWidth;
       const square_y = Math.random() * window.innerHeight;
       const square_dx = Math.random() - 0.5;
@@ -72,7 +74,7 @@ export default function Hero() {
     return () => {
       cancelAnimationFrame(requestId);
     };
-  }, [width, height]);
+  }, [width, height, particleCount]);
 
   return (
     <div className="hero-wrapper" ref={heroRef}>

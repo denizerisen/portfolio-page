@@ -57,4 +57,11 @@
       fill: $color-main;
     }
   }
+
+  &.figma {
+    border-color: $color-figma;
+    .icon {
+      fill: $color-figma;
+    }
+  }
 }

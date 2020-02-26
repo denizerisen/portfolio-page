@@ -15,7 +15,7 @@ export default function Showcase() {
         <div className="link-wrapper">
           <Link type="github" />
           <Link type="codepen" />
-          <Link type="website" />
+          <Link type="figma" />
         </div>
       </div>
     </section>

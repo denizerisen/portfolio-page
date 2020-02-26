@@ -21,4 +21,11 @@
   <symbol viewBox="0 0 24 24" id="linkedin">
     <path fill-rule="evenodd" d="M4 2h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v16h16V4H4zm7.452 5.452A3.023 3.023 0 0 1 13 9h1c1.394 0 3 1.147 3 3v4h-2v-4c0-.576-.594-1-1-1h-1c-.406 0-1 .424-1 1v4h-2V9h1l.452.452zM8 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm1 8H7V9h2v7z"></path>
   </symbol>
+  <symbol viewBox="0 0 200 300" id="figma">
+    <path d="M50 300c27.6 0 50-22.4 50-50v-50H50c-27.6 0-50 22.4-50 50s22.4 50 50 50z" fill="#0acf83"></path>
+    <path d="M0 150c0-27.6 22.4-50 50-50h50v100H50c-27.6 0-50-22.4-50-50z" fill="#a259ff"></path>
+    <path d="M0 50C0 22.4 22.4 0 50 0h50v100H50C22.4 100 0 77.6 0 50z" fill="#f24e1e"></path>
+    <path d="M100 0h50c27.6 0 50 22.4 50 50s-22.4 50-50 50h-50V0z" fill="#ff7262"></path>
+    <path d="M200 150c0 27.6-22.4 50-50 50s-50-22.4-50-50 22.4-50 50-50 50 22.4 50 50z" fill="#1abcfe"></path>
+  </symbol>
 </svg>

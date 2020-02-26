@@ -32,12 +32,15 @@ export default function Link({ url, type }) {
       title: "mail address",
       class: "mail",
       icon: "at-sign"
+    },
+    figma: {
+      title: "link to figma file",
+      class: "figma",
+      icon: "figma"
     }
   };
 
   const link = linksObject[type];
-  console.log(type);
-  console.log(linksObject["github"]);
 
   return (
     <a href="#/link" title={link.title} className={"link " + link.class}>
