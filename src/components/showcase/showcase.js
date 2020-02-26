@@ -1,10 +1,16 @@
 import React from "react";
 import Link from "../link/link";
-
 export default function Showcase() {
   return (
     <section className="showcase">
-      <div className="image-col"></div>
+      <div className="image-col">
+        <img
+          src={require("../../assets/images/signup-form.png")}
+          width="100%"
+          alt="project"
+        ></img>
+      </div>
+
       <div className="description-col">
         <h3 className="title">Title of description</h3>
         <p className="description">

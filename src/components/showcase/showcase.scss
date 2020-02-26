@@ -1,17 +1,14 @@
 .showcase-section {
   padding: px(20) px(20);
-
   background: linear-gradient(rgba(#fff, 1) 0%, rgba(#fff, 0) 100%),
     linear-gradient(90deg, $color-pale-pink 5%, transparent 1%),
     linear-gradient($color-pale-pink 5%, transparent 1%);
-
   background-position: auto, 0 0, 10px 10px;
   background-size: cover, 20px 20px, 20px 20px;
 }
 
 .showcase {
   width: 90%;
-  height: px(400);
   margin: px(20) auto;
   padding: px(15);
 
@@ -24,31 +21,29 @@
 
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 
   &:nth-of-type(even) {
     flex-direction: row-reverse;
   }
 
-  .description-col,
-  .image-col {
-    height: 100%;
-  }
-
   .description-col {
-    flex: 55%;
+    flex: 50%;
   }
 
   .image-col {
-    flex: 45%;
+    flex: 50%;
+
+    img {
+      border-radius: $radius;
+    }
   }
 }
 
 .description-col {
-  padding: px(25) px(10);
+  padding: px(15);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
 
   @include tablet {
     text-align: center;
@@ -65,8 +60,7 @@
   }
 
   .description {
-    flex-basis: 50%;
-    margin: px(10) 0;
+    flex-basis: 70%;
   }
 
   .link-wrapper {
