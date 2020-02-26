@@ -3,8 +3,18 @@
   height: 90vh;
   padding: px(40) 0;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+
+  .social-links,
+  .scroll-pointer {
+    flex-basis: auto;
+  }
+
+  .hero-text-container {
+    flex-basis: 70%;
+  }
 }
 
 canvas {
@@ -34,18 +44,23 @@ canvas {
   }
 
   p {
-    font-size: px(20);
+    font-size: px(25);
+
+    @include tablet {
+      font-size: px(20);
+    }
   }
 }
 
 .social-links {
   display: flex;
   justify-content: center;
-  margin: px(5);
+  margin: px(15);
   width: 100%;
 
   .link {
     margin: px(5);
+    border: none;
   }
 
   .icon {
@@ -56,10 +71,10 @@ canvas {
 
 .scroll-pointer {
   width: min-content;
-  margin: 0 auto;
   display: flex;
-  align-self: flex-end;
   align-items: center;
+  margin-top: px(10);
+
   .icon {
     width: px(10);
     height: px(40);

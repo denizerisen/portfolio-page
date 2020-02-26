@@ -6,8 +6,8 @@ export default function Showcase() {
     <section className="showcase">
       <div className="image-col"></div>
       <div className="description-col">
-        <h3>Title of description</h3>
-        <p>
+        <h3 className="title">Title of description</h3>
+        <p className="description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
           tenetur autem aspernatur illum voluptate at nobis minus mollitia
           reprehenderit. Rerum dolorem saepe deserunt, minima amet{" "}

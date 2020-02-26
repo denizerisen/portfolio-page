@@ -54,17 +54,17 @@
     text-align: center;
   }
 
-  h3,
-  p {
+  .title,
+  .description {
     margin: 0;
   }
 
-  h3,
+  .title,
   .link-wrapper {
     flex-basis: auto;
   }
 
-  p {
+  .description {
     flex-basis: 50%;
     margin: px(10) 0;
   }
