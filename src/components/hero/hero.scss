@@ -38,6 +38,12 @@ canvas {
   color: $color-main;
   text-align: center;
 
+  @include mobile {
+    border-image: none;
+    border: px(5) solid $color-sub;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
   h1 {
     font-size: px(50);
     font-weight: $font-bold;

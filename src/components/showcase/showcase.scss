@@ -28,6 +28,9 @@
 
     .link-wrapper {
       justify-content: flex-end;
+      @include tablet {
+        justify-content: center;
+      }
     }
   }
 
@@ -40,9 +43,6 @@
 
     img {
       border-radius: $radius;
-      position: relative;
-      transform: translateY(-50%);
-      top: 50%;
     }
   }
 }
