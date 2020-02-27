@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Intro component with sign-up form",
+    "description": "This project's is a challenge by Frontend Mentor. The design is provided by them. For this one the challenge is building the website as close as to the design with client-side form validation.",
+    "img": "signup-form",
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/denizerisen/intro-component-with-sign-up-form"
+      }
+    ]
+  }
+]

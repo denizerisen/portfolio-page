@@ -1,27 +1,28 @@
 import React from "react";
 import Link from "../link/link";
-export default function Showcase() {
+export default function Showcase(props) {
+  const { img, title, description, links } = props;
   return (
     <section className="showcase">
       <div className="image-col">
-        <img
-          src={require("../../assets/images/signup-form.png")}
-          width="100%"
-          alt="project"
-        ></img>
+        {img ? (
+          <img
+            src={require(`../../assets/images/${img}.png`)}
+            width="100%"
+            alt="project"
+          ></img>
+        ) : (
+          <p>no image</p>
+        )}
       </div>
 
       <div className="description-col">
-        <h3 className="title">Title of description</h3>
-        <p className="description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          tenetur autem aspernatur illum voluptate at nobis minus mollitia
-          reprehenderit. Rerum dolorem saepe deserunt, minima amet{" "}
-        </p>
+        <h3 className="title">{title}</h3>
+        <p className="description">{description}</p>
         <div className="link-wrapper">
-          <Link type="github" />
-          <Link type="codepen" />
-          <Link type="figma" />
+          {links.map(link => (
+            <Link url={link.url} type={link.type} />
+          ))}
         </div>
       </div>
     </section>

@@ -43,7 +43,13 @@ export default function Link({ url, type }) {
   const link = linksObject[type];
 
   return (
-    <a href="#/link" title={link.title} className={"link " + link.class}>
+    <a
+      href={url}
+      title={link.title}
+      className={"link " + link.class}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <svg className="icon">
         <use href={sprite + `#${link.icon}`} />
       </svg>
