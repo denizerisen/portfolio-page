@@ -49,6 +49,10 @@ canvas {
     @include tablet {
       font-size: px(20);
     }
+
+    span {
+      font-style: italic;
+    }
   }
 }
 

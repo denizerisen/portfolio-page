@@ -82,13 +82,8 @@ export default function Hero() {
       <div className="hero-text-container">
         <h1>Hello There,</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-          sapiente asperiores ut nihil cum, modi quam debitis autem eveniet
-          libero. Eaque dolore nostrum natus nobis quos laudantium quo, modi
-          possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Alias sapiente asperiores ut nihil cum, modi quam debitis autem
-          eveniet libero. Eaque dolore nostrum natus nobis quos laudantium quo,
-          modi possimus.
+          I'm Deniz. I am a frontend developer also dabbling a
+          <span> tiny bit</span> in UI design, currently based in İzmir.
         </p>
       </div>
       <div className="social-links">

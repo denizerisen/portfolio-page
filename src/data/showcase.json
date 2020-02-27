@@ -12,14 +12,6 @@
     ]
   },
   {
-    "title": "Table Cell Focus Animation",
-    "description": "Border follows which ever cell is currently focused on the table.",
-    "img": "cell-animation",
-    "links": [
-      { "type": "codepen", "url": "https://codepen.io/denizerisen/pen/bGdgmeX" }
-    ]
-  },
-  {
     "title": "Micronutrient Calculator Design (Desktop)",
     "description": "Design for my macronutrient calculator app idea.",
     "img": "nutrition-app",
@@ -28,6 +20,14 @@
         "type": "figma",
         "url": "https://www.figma.com/file/9YUmjvTNbsKsX9LTASUUde/get-that-nutrition?node-id=6%3A186"
       }
+    ]
+  },
+  {
+    "title": "Table Cell Focus Animation",
+    "description": "Border follows which ever cell is currently focused on the table.",
+    "img": "cell-animation",
+    "links": [
+      { "type": "codepen", "url": "https://codepen.io/denizerisen/pen/bGdgmeX" }
     ]
   },
   {
