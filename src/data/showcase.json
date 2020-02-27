@@ -1,12 +1,47 @@
 [
   {
-    "title": "Intro component with sign-up form",
+    "title": "Intro Component with Sign-up Form",
     "description": "This project's is a challenge by Frontend Mentor. The design is provided by them. For this one the challenge is building the website as close as to the design with client-side form validation.",
     "img": "signup-form",
     "links": [
       {
         "type": "github",
         "url": "https://github.com/denizerisen/intro-component-with-sign-up-form"
+      },
+      { "type": "website", "url": "https://signupform-d.netlify.com" }
+    ]
+  },
+  {
+    "title": "Table Cell Focus Animation",
+    "description": "Border follows which ever cell is currently focused on the table.",
+    "img": "cell-animation",
+    "links": [
+      { "type": "codepen", "url": "https://codepen.io/denizerisen/pen/bGdgmeX" }
+    ]
+  },
+  {
+    "title": "Micronutrient Calculator Design (Desktop)",
+    "description": "Design for my macronutrient calculator app idea.",
+    "img": "nutrition-app",
+    "links": [
+      {
+        "type": "figma",
+        "url": "https://www.figma.com/file/9YUmjvTNbsKsX9LTASUUde/get-that-nutrition?node-id=6%3A186"
+      }
+    ]
+  },
+  {
+    "title": "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ This Website ",
+    "description": "My portfolio page. You can see the design on figma and the implementation on github. You will also see the second consept I had in mind.",
+
+    "links": [
+      {
+        "type": "github",
+        "url": "https://github.com/denizerisen/portfolio-page"
+      },
+      {
+        "type": "figma",
+        "url": "https://www.figma.com/file/04lT5a8lQHiN1zSZ6G59nl/portfolio-draft?node-id=0%3A1"
       }
     ]
   }

@@ -12,7 +12,7 @@ export default function Showcase(props) {
             alt="project"
           ></img>
         ) : (
-          <p>no image</p>
+          <p className="no-image">no image</p>
         )}
       </div>
 

@@ -28,3 +28,9 @@ a {
     font-size: px(12);
   }
 }
+
+@include mobile {
+  body {
+    font-size: px(8);
+  }
+}

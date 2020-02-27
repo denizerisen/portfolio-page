@@ -92,10 +92,12 @@ export default function Hero() {
         </p>
       </div>
       <div className="social-links">
-        <Link type="twitter" />
-        <Link type="linkedin" />
-        <Link type="github" />
-        <Link type="mail" />
+        <Link url="https://twitter.com/dnzerisen" type="twitter" />
+        <Link
+          url="https://www.linkedin.com/in/deniz-eri%C5%9Fen-b77410161/"
+          type="linkedin"
+        />
+        <Link url="https://github.com/denizerisen" type="github" />
       </div>
       <div className="scroll-pointer">
         <svg className="icon">
