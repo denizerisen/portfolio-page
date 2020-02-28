@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## !
+It has been brought to my attention that create react app is not the way to go for this type of project. I'll be working on it to make it a more simple react app
+## !
+
 ## Available Scripts
 
 In the project directory, you can run:
